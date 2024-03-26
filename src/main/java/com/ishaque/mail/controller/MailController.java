@@ -9,7 +9,7 @@ import org.springframework.web.bind.annotation.RestController;
 public class MailController {
     @Autowired
     public MailService mailService;
-
+//hi
     @PostMapping("/send")
     String sendMail(@RequestBody String maildIds) throws Exception {
         String body="<!-- HTML Codes by Quackit.com -->\n" +
